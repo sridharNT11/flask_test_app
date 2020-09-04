@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+			
+.mulberry{
+
+	background-color: #4a100c;
+
+}
+.btn{
+	color: white !important;
+}
+/* .error{
+	color: red;
+	/*font-weight: bold;*/
+} */
+.test{
+	background-color: #99cfff;
+}
+.color{
+	background-color: #ffb3b3;
+}
+
+h2{
+	padding-bottom: 10px;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+.error {
+    color : red;
+    width:100%;
+    text-align: center;
+}
+

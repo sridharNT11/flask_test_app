@@ -1,0 +1,26 @@
+
+    <table class="table ">
+        <thead>  
+           <tr >
+               <th>Customer ID</th>
+              <th >Contact Number</th>
+              <th>Name</th>
+                 
+           </tr>
+         </thead>
+         {% for row in cust_data %}
+           <tbody>
+               <tr>
+                   <td >{{row.contact_id}}</td>
+                   <td >{{row.contact_number}}</td>
+                   <td >{{row.name}}</td>
+                   <!-- <td ><button type="button" name="delete_button"> <a  href="{{ url_for('cust.Delete_contact', id = row.contact_id) }}">
+                        Delete</a> </button></td>
+                   <td ><button type="button" name="edit_button" > <a  href="{{ url_for('cust.Edit_contact', id=row.contact_id) }}">
+                        Edit</a> </button> </td>  -->
+
+               </tr>
+        </tbody>
+        {% endfor %}
+        </table>
+       
