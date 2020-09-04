@@ -1,10 +1,11 @@
 class Config(object):
     DEBUG = False
     TESTING = False
-    DATABASE_URI = 'sqlite:///:memory:'
+    DATABASE_URI = 'mysql+mysqldb://urbanedg_train:P&,1(r7-+o2o@72.52.161.232:3306/urbanedg_training_project'
+    ENV = ""
 
 class ProductionConfig(Config):
-    DATABASE_URI = 'mysql+mysqldb://urbanedg_train:P&,1(r7-+o2o@72.52.161.232:3306/urbanedg_training_project'
+    DATABASE_URI = 'mysql+mysqldb://root:@127.0.0.1:3306/test_app'
     CACHE_TYPE  = 'NULL'
     
 class DevelopmentConfig(Config):
